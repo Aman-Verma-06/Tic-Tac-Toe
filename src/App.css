@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.board-container{
+  display: grid;
+  place-items: center;
+  /* background-color: white; */
+  /* margin: 50px; */
+}
+
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  /* background-color: white; */
+}
